@@ -1,0 +1,62 @@
+****** HSPICE -- K-2015.06-SP2 linux64 (Nov 18 2015) ******
+ Input File: input.ckt
+ lic:
+ lic: FLEXlm: v11.2.1
+ lic: USER:   cmalone              HOSTNAME: jump
+ lic: HOSTID: "14feb5c7d443"       PID:      49179
+ lic: Using FLEXlm license file:
+ lic: 27000@10.7.46.20
+ lic: Checkout 1 hspice
+ lic: License/Maintenance for hspice will expire on 25-apr-2020/2017.12
+ lic: 1(in_use)/50(total) FLOATING license(s) on SERVER 27000@10.7.46.20
+ lic:
+ init: begin read circuit files,  cpu clock=  1.40E-01
+       option search = /usr/local/hspice/K-2015.06-SP2/hspice/parts/ad
+       option search = /usr/local/hspice/K-2015.06-SP2/hspice/parts/ad
+       option search = /usr/local/hspice/K-2015.06-SP2/hspice/parts/beh
+                         ave
+       option search = /usr/local/hspice/K-2015.06-SP2/hspice/parts/bjt
+       option search = /usr/local/hspice/K-2015.06-SP2/hspice/parts/bur
+                         r_brn
+       option search = /usr/local/hspice/K-2015.06-SP2/hspice/parts/com
+                         linear
+       option search = /usr/local/hspice/K-2015.06-SP2/hspice/parts/dio
+       option search = /usr/local/hspice/K-2015.06-SP2/hspice/parts/fet
+       option search = /usr/local/hspice/K-2015.06-SP2/hspice/parts/lin
+                         _tech
+       option search = /usr/local/hspice/K-2015.06-SP2/hspice/parts/pci
+       option search = /usr/local/hspice/K-2015.06-SP2/hspice/parts/sig
+                         net
+       option search = /usr/local/hspice/K-2015.06-SP2/hspice/parts/ti
+       option search = /usr/local/hspice/K-2015.06-SP2/hspice/parts/tli
+                         ne
+       option search = /usr/local/hspice/K-2015.06-SP2/hspice/parts/xil
+                         inx
+       option runlvl
+       option artist =     2.00
+       option ingold =     2.00
+       option parhier = local
+       option psf =     2.00
+ init: end read circuit files,  cpu clock=  1.40E-01 peak memory=       232 mb
+ init: begin check errors,  cpu clock=  1.40E-01
+ init: end check errors,  cpu clock=  1.50E-01 peak memory=       232 mb
+ init: begin setup matrix, pivot=     0 cpu clock=  1.50E-01
+       establish matrix -- done,  cpu clock=  1.50E-01 peak memory=       232 mb
+       re-order matrix -- done,  cpu clock=  1.50E-01 peak memory=       232 mb
+ init: end setup matrix,  cpu clock=  1.50E-01 peak memory=       232 mb
+ dcop: begin dcop,  cpu clock=  1.50E-01
+ dcop: end dcop,  cpu clock=  1.60E-01 peak memory=       232 mb  tot_iter=       4
+ sweep: tran tran0    begin, stop_t=  2.00E-08 #sweeps=2001 cpu clock=  1.60E-01
+ tran: time= 2.4373E-09 tot_iter=      34 conv_iter=      14 cpu clock= 1.60E-01
+ tran: time= 4.8650E-09 tot_iter=      43 conv_iter=      18 cpu clock= 1.60E-01
+ tran: time= 6.6730E-09 tot_iter=      78 conv_iter=      34 cpu clock= 1.60E-01
+ tran: time= 8.6730E-09 tot_iter=      82 conv_iter=      36 cpu clock= 1.60E-01
+ tran: time= 1.0000E-08 tot_iter=      87 conv_iter=      38 cpu clock= 1.60E-01
+ tran: time= 1.2359E-08 tot_iter=     125 conv_iter=      54 cpu clock= 1.60E-01
+ tran: time= 1.4788E-08 tot_iter=     134 conv_iter=      58 cpu clock= 1.60E-01
+ tran: time= 1.6673E-08 tot_iter=     169 conv_iter=      74 cpu clock= 1.60E-01
+ tran: time= 1.8673E-08 tot_iter=     173 conv_iter=      76 cpu clock= 1.60E-01
+ tran: time= 2.0000E-08 tot_iter=     178 conv_iter=      78 cpu clock= 1.60E-01
+ sweep: tran tran0    end,  cpu clock=  1.60E-01 peak memory=       232 mb
+>info:         ***** hspice job concluded
+ lic: Release hspice token(s)

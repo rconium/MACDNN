@@ -1,0 +1,10 @@
+HEADER
+"PSFversion" "1.00"
+"design" "(\"Lab1_ECE467_test\" \"CMOSInverter\" \"schematic\" \"\")"
+"simulator" "hspiceD"
+"temperature" "25.0"
+"host" ""
+"date" "Feb 26 13:57:11 2020"
+"title" ""
+"analysisList" "()"
+END

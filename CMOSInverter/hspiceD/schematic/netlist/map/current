@@ -1,0 +1,27 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "CMOSInverter"
+  repList "hspiceD spice cmos_sch cmos.sch schematic"
+  stopList "hspiceD spice"
+  globalList "GND! VDD!"
+  hierDelim "^"
+  netlistDir "/home3/ugrad3/cmalone/simulation/CMOSInverter/hspiceD/schematic/netlist"
+ )
+( instViewTable
+ )
+( net
+( "GND!" "0" )
+( "VDD!" "vdd!" )
+ )
+( inst
+ )
+( model
+( "Lab1_ECE467_test/CMOSInverter/schematic" "CMOSInverter" )
+ )
+( term
+ )
+( param
+ )
+( "CMOSInverter" "ihnl/cds0/map" )
+ )

@@ -1,0 +1,30 @@
+** Generated for: hspiceD
+** Generated on: Feb 26 13:57:11 2020
+** Design library name: Lab1_ECE467_test
+** Design cell name: CMOSInverter
+** Design view name: schematic
+.GLOBAL vdd!
+
+
+.TRAN 10e-12 20e-9 START=0.0
+
+.OP
+
+.TEMP 25.0
+.OPTION
++    ARTIST=2
++    INGOLD=2
++    PARHIER=LOCAL
++    PSF=2
+.INCLUDE "/home1/fac1/amitrt/Teaching/ECE8893_LAB/FreePDK45/ncsu_basekit/models/hspice/tran_models/models_nom/NMOS_VTG.inc"
+.INCLUDE "/home1/fac1/amitrt/Teaching/ECE8893_LAB/FreePDK45/ncsu_basekit/models/hspice/tran_models/models_nom/PMOS_VTG.inc"
+
+** Library name: Lab1_ECE467_test
+** Cell name: CMOSInverter
+** View name: schematic
+m0 output input 0 0 NMOS_VTG L=50e-9 W=180e-9
+m1 output input vdd! vdd! PMOS_VTG L=50e-9 W=160e-9
+v1 vdd! 0 DC=1
+v0 input 0 PULSE 0 1 0 1e-12 1e-12 5e-9 10e-9
+c0 output 0 100e-15
+.END

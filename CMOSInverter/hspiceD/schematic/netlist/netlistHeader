@@ -1,0 +1,6 @@
+** Generated for: hspiceD
+** Generated on: Feb 26 13:57:11 2020
+** Design library name: Lab1_ECE467_test
+** Design cell name: CMOSInverter
+** Design view name: schematic
+.GLOBAL vdd!

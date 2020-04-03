@@ -1,0 +1,12 @@
+HEADER
+"PSFversion" "1.00"
+"M0v" "m0v"
+"M1v" "m1v"
+"M0n" "NCSU_Devices_FreePDK45_NMOS_VTG_hspiceD"
+"V1v" "v1v"
+"M1n" "NCSU_Devices_FreePDK45_PMOS_VTG_hspiceD"
+"V0v" "v0v"
+"V1n" "analogLib_vdc_hspiceD"
+"C0v" "c0v"
+"V0n" "analogLib_vpulse_hspiceD"
+"C0n" "analogLib_cap_hspiceD"
