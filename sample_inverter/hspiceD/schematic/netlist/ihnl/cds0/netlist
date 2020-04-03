@@ -1,0 +1,7 @@
+
+** Library name: Lab1_ECE467
+** Cell name: sample_inverter
+** View name: schematic
+m0 vout vin 0 net8 NMOS_VTL L='50nM' W='90nM'
+m1 vout vin vdd! net9 PMOS_VTL L='50nM' W='180nM'
+v0 vdd! 0 DC=1.1

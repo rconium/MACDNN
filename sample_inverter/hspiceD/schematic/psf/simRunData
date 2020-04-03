@@ -1,0 +1,10 @@
+HEADER
+"PSFversion" "1.00"
+"design" "(\"Lab1_ECE467\" \"sample_inverter\" \"schematic\" \"\")"
+"simulator" "hspiceD"
+"temperature" "25.0"
+"host" ""
+"date" "Feb  3 13:16:37 2020"
+"title" ""
+"analysisList" "()"
+END

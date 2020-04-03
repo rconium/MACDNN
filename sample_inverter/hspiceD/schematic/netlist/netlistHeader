@@ -1,0 +1,6 @@
+** Generated for: hspiceD
+** Generated on: Feb  3 13:16:37 2020
+** Design library name: Lab1_ECE467
+** Design cell name: sample_inverter
+** Design view name: schematic
+.GLOBAL vdd!

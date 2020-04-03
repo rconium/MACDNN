@@ -1,0 +1,15 @@
+simulator( 'hspiceD )
+design(	 "/home3/ugrad3/cmalone/simulation/sample_inverter/hspiceD/schematic/netlist/netlist")
+resultsDir( "/home3/ugrad3/cmalone/simulation/sample_inverter/hspiceD/schematic" )
+modelFile( 
+    '("/home1/fac1/amitrt/Teaching/ECE8893_LAB/FreePDK45/ncsu_basekit/models/hspice/tran_models/models_nom/NMOS_VTL.inc" "")
+    '("/home1/fac1/amitrt/Teaching/ECE8893_LAB/FreePDK45/ncsu_basekit/models/hspice/tran_models/models_nom/PMOS_VTL.inc" "")
+)
+analysis('tran ?start "0"  ?stop "4n"  ?step "10p"  )
+option(	'TEMPDC  "25.0" 
+)
+save( 'v "/VOUT" "/VIN" )
+temp( 25.0 ) 
+run()
+selectResult( 'tran )
+plot(getData("/VOUT") getData("/VIN") )

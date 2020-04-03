@@ -1,0 +1,15 @@
+
+
+.PROBE TRAN
++    V(vin)
++    V(vout)
+.TRAN 10e-12 4e-9 START=0.0
+
+.OP
+
+.TEMP 25.0
+.OPTION
++    ARTIST=2
++    INGOLD=2
++    PARHIER=LOCAL
++    PSF=2

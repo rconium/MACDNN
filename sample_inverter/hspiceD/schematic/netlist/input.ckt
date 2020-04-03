@@ -1,0 +1,31 @@
+** Generated for: hspiceD
+** Generated on: Feb  3 13:16:37 2020
+** Design library name: Lab1_ECE467
+** Design cell name: sample_inverter
+** Design view name: schematic
+.GLOBAL vdd!
+
+
+.PROBE TRAN
++    V(vin)
++    V(vout)
+.TRAN 10e-12 4e-9 START=0.0
+
+.OP
+
+.TEMP 25.0
+.OPTION
++    ARTIST=2
++    INGOLD=2
++    PARHIER=LOCAL
++    PSF=2
+.INCLUDE "/home1/fac1/amitrt/Teaching/ECE8893_LAB/FreePDK45/ncsu_basekit/models/hspice/tran_models/models_nom/NMOS_VTL.inc"
+.INCLUDE "/home1/fac1/amitrt/Teaching/ECE8893_LAB/FreePDK45/ncsu_basekit/models/hspice/tran_models/models_nom/PMOS_VTL.inc"
+
+** Library name: Lab1_ECE467
+** Cell name: sample_inverter
+** View name: schematic
+m0 vout vin 0 net8 NMOS_VTL L='50nM' W='90nM'
+m1 vout vin vdd! net9 PMOS_VTL L='50nM' W='180nM'
+v0 vdd! 0 DC=1.1
+.END
