@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      rremigos
+HostName                       jump.ece.uic.edu
+ProcessIdentifier              116124
+ProcessCreationTime_UTC        1586163150
+ProcessCreationTime_Readable   Mon Apr  6 03:52:30 2020 CDT
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /home3/ugrad3/rremigos/Project/NOR_2_2/symbol/symbol.oa.cdslck.dirlck
+TimeEditLocked                 Mon Apr  6 04:04:53 2020 CDT
