@@ -1,0 +1,1 @@
+("test:/\ttest Sample schematic" (("open" (nil hierarchy "/{Sample test schematic }:a"))) (((-5.4375 -1.84375) (2.875 1.78125)) "a" "Schematics" 0))("static_CMOS_full_adder:/\tstatic_CMOS_full_adder Project_3 schematic" (("open" (nil hierarchy "/{Project_3 static_CMOS_full_adder schematic }:a"))) (((-3.23125 -3.66875) (10.29375 2.23125)) "a" "Schematics" 1))
